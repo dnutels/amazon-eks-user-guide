@@ -1,0 +1,20 @@
+include::../attributes.txt[]
+
+[.topic]
+[#ai-ml-inference-cluster-setup]
+= Cluster setup
+:info_titleabbrev: Cluster setup
+
+[abstract]
+--
+Create an EKS cluster and {aws} resources to run AI/ML inference workloads.
+--
+
+This guide walks through setting up an environment for GPU inference workloads by using Terraform and ${aws} CLI. Pick one of the two paths: Terraform or {aws} CLI, and follow the topics in order or complete independently depending on your needs.
+
+
+[.topiclist]
+[[Topic List]]
+
+include::ai-ml-inference-cluster-setup-tf.adoc[leveloffset=+1]
+

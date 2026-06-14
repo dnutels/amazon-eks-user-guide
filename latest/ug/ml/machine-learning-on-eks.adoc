@@ -64,6 +64,8 @@ Once your environment is up and running, you can continue to the next steps:
 - [Capacity management](https://docs.aws.amazon.com/eks/latest/userguide/ml-compute-management.html): Manage and optimize compute resources for machine learning workloads on Amazon EKS.
 - [Device management](https://docs.aws.amazon.com/eks/latest/userguide/device-management.html): Manage specialized hardware devices using Dynamic Resource Allocation (DRA) and device plugins.
 
+include::ai-ml-inference.adoc[leveloffset=+1]
+
 include::ml-realtime-inference.adoc[leveloffset=+1]
 
 include::ml-cluster-configuration.adoc[leveloffset=+1]

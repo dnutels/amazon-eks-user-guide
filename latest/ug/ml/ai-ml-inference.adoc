@@ -1,0 +1,19 @@
+include::../attributes.txt[]
+
+[.topic]
+[#ai-ml-inference]
+= Create and manage AI/ML inference workloads on Amazon EKS
+:info_titleabbrev: Inference
+
+[abstract]
+--
+Learn to deploy AI/ML inference workloads on Amazon EKS using GPU-accelerated nodes.
+--
+
+This section of the guide helps you to deploy and operate AI/ML inference workloads on Amazon Elastic Kubernetes Service (EKS). You will find guidance on building optimized clusters with GPU-accelerated nodes, integrating ${aws} services for storage and autoscaling, deploying sample models for validation, and key architectural considerations such as decoupling CPU and GPU tasks, selecting appropriate AMIs and instance types, and ensuring low-latency exposure of inference endpoints.
+
+[.topiclist]
+[[Topic List]]
+
+include::ai-ml-inference-cluster-setup.adoc[leveloffset=+1]
+
